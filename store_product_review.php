@@ -5,6 +5,7 @@ require 'db.php';
 // Initialize the response array
 $response = [];
 
+
 // Check if the request method is POST or not
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     $response = [
